@@ -1,14 +1,9 @@
-
 #include <stdio.h>
 
 int main(void)
 {
-    int num;
-
-    printf("整数を入力してください：");
-    scanf("%d", &num);
-
-    printf("入力した整数は%dです。\n", num);
-
+    int a;
+    scanf("%d", &a);
+    printf("%d\n", a);
     return 0;
 }
